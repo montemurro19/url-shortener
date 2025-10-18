@@ -31,6 +31,10 @@ public class ShortUrl {
     @Column
     private java.time.LocalDateTime expiration;
 
+    @Column(nullable = false)
+    @Builder.Default
+    private java.time.LocalDateTime createdAt = java.time.LocalDateTime.now();
+
     public void incrementUsage() {
         this.usageCount++;
     }

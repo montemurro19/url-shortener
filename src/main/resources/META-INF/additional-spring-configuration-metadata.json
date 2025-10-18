@@ -1,7 +1,14 @@
 {
-  "properties": [{
-    "name": "spring.web.servlet.path",
-    "type": "java.lang.String",
-    "description": "A description for 'spring.web.servlet.path'"
-  }]
+  "properties": [
+    {
+      "name": "spring.web.servlet.path",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.web.servlet.path'"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "A description for 'jwt.secret'"
+    }
+  ]
 }
